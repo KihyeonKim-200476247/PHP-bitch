@@ -1,0 +1,59 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{font-family: "Poppins", sans-serif;}
+p,a,li,figcaption,td,input,label{
+  font-size: 1.2em;
+  font-family: "Noto Sans", sans-serif;
+}
+.row{margin: 0px;}
+.navbar-brand img{
+  width: auto;
+  height: 125px;
+}
+.masthead{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/sample-image.jpg");
+  background-size: cover;
+}
+.masthead div{
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.masthead div h1{
+  color: #fff;
+  font-size: 3.5em;
+}
+.masthead div h2{
+  color: #fff;
+  font-size: 3em;
+}
+.form-container{
+  padding: 5%;
+  text-align: center;
+}
+input{
+  margin-bottom: 15px;
+}
+textarea{
+  width: 400px;
+  height: 200px;
+}
+.results{
+  padding: 5%;
+  text-align: center;
+  background-color: #4F5B93;
+  color: #fff;
+}
+footer{
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+  background-color: #212529;
+}

@@ -1,0 +1,55 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
+p,a,li,td{
+  font-size: 1.25em;
+  font-family: 'Noto Sans', sans-serif;
+}
+.row{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar img{
+  height: 60px;
+}
+.masthead{
+  width: 100%;
+  height: 75vh;
+  align-items: center;
+  background-image: url('../img/sample-image.jpg');
+  background-size: cover;
+}
+.masthead div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masthead h1{
+  color: #fff;
+  font-size: 3.5em;
+}
+#variables div,
+#structures div{
+  padding: 5%;
+}
+#variables div h2{
+  font-size: 2.5em;
+}
+#structures div h3{
+  font-size: 2.5em;
+}
+#capture{
+  padding: 5%;
+  text-align: center;
+}
+#capture h3{
+  font-size: 2.5em;
+}
+#capture input{
+  margin-bottom: 15px;
+  border: solid 2px #0e0e0e;
+  border-radius: 5px;
+}
